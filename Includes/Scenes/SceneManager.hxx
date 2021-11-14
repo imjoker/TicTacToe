@@ -7,6 +7,9 @@ SceneManager::Init () noexcept
 	vInstruction.SetColor (GREEN);
 	vInstruction.SetCoord (vInstrctCoord);
 
+	vModeHeader.SetColor (WHITE);
+	vModeHeader.SetCoord (vModeCoord);
+
 	vNavigation.SetColor (YELLOW);
 }
 
@@ -87,6 +90,9 @@ SceneManager::EnterAIMode () noexcept
 	system("cls");
 
 	vNavigation.Draw ();
+	
+	vModeHeader.SetText ("AI Mode");
+	vModeHeader.Draw ();
 
 	TicTacToeAI::DrawGame ();	
 
@@ -187,6 +193,9 @@ SceneManager::Enter2PMode () noexcept
 	system("cls");
 
 	vNavigation.Draw ();
+
+	vModeHeader.SetText ("2-P Mode");
+	vModeHeader.Draw ();
 
 	TicTacToe2P::DrawGame ();
 
@@ -295,3 +304,4 @@ SceneManager::DisplayFirstPlayerErrMsg () noexcept
 	vInstruction.SetText ("Invalid input. Please try again to choose between X and O as first player: ");
 	vInstruction.Draw ();
 }
+

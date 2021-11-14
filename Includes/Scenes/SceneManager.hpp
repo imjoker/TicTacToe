@@ -35,11 +35,14 @@ class SceneManager {
 
 	    MenuScene                           vMenu;
 		DynamicText                         vInstruction;
+		DynamicText                         vModeHeader;
 		StaticText<sizeof (sNavigation)>    vNavigation    {sNavigation, tCoord {2, 2}};
 		tCoord                              vInstrctCoord  {70, 7};
+		tCoord                              vModeCoord     {89, 3};
 
 static constexpr const char * sAIModeWin[2] {sYouWonStr, sAIWonStr};
 static constexpr const char * s2PModeWin[2] {sOWonStr, sXWonStr};
 };
 
 #include "SceneManager.hxx"
+
