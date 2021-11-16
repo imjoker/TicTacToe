@@ -19,7 +19,7 @@ The game is built without use of any open-source graphic libraries or game engin
   - Whenever a player wins, the line which caused the win is toggled till user interrupts.
   - In AI mode, using `Sleep()` to give user a feel that he is actually playing with another human player even when he/she is playing with AI.
 
-Demo game play:
+### Demo game play:
 https://user-images.githubusercontent.com/13928177/142049385-029661de-d1d3-427d-b8ee-980061491ed1.mp4
 
-Handling invalid user inputs by proper conveying proper instructions:
+### Handling invalid user inputs by proper conveying proper instructions:
