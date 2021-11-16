@@ -14,6 +14,6 @@ The game is built without use of any open-source graphic libraries or game engin
   - Clicking Escape returns player from any game (even when the game is on-going) back to Menu.
   - To exit game: Select Exit option provided in Menu. Alternatively, can click Escape when in Menu.
 - **User Experience:**
-  - Colored content and symbols to provide a optimal user experience for a game developed with no graphic support.
+  - Colored content to provide a optimal user experience for a game developed with no graphic support.
   - In AI mode, using `Sleep()` to give user a feel that he is actually playing with another human player even when he/she is playing with AI.
 
