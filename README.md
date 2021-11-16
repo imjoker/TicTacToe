@@ -15,7 +15,7 @@ The game is built without use of any open-source graphic libraries or game engin
   - To exit game: Select Exit option provided in Menu. Alternatively, can click Escape when in Menu.
 - **User Experience:**
   - Colored content, instructions, and symbols to provide a optimal user experience for a game developed with no graphic support.
-  - For invalid user inputs, clear instruction is conveyed to the user to understand what they might have done wrong. Please refer to [Handling invalid user inputs](https://github.com/imjoker/TicTacToe/blob/main/README.md#handling-invalid-user-inputs) given below.
+  - For invalid user inputs, clear instruction is conveyed to the user to understand what they might have done wrong. Please refer to ["handling invalid user inputs"](https://github.com/imjoker/TicTacToe/blob/main/README.md#handling-invalid-user-inputs).
   - Whenever a player wins, the line which caused the win is toggled till user interrupts.
   - In AI mode, using `Sleep()` to give user a feel that he is actually playing with another human player even when he/she is playing with AI.
 
