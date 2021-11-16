@@ -2,7 +2,7 @@
 
 The classic Tic-Tac-Toe game (Noughts and Crosses) is a game for two players named X and O, who take turns marking the empty spaces in a 3×3 grid. Whichever player first succeeds in marking either an entire row, or a column, or a diagonal is considered winner.
 
-The game is built without use of any open-source graphic libraries or game engines. Developed basic utility using C++, to support the implementation of the game.
+The game is built without use of any open-source graphic libraries or game engines. Implemented basic utility using C++, to support the implementation of the game.
 
 ### Features include:
 - **Multiple modes:**
