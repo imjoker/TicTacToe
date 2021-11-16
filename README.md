@@ -15,6 +15,7 @@ The game is built without use of any open-source graphic libraries or game engin
   - To exit game: Select Exit option provided in Menu. Alternatively, can click Escape when in Menu.
 - **User Experience:**
   - Colored content, instructions, and symbols to provide a optimal user experience for a game developed with no graphic support.
+  - Upon wrong inputs such as trying to mark a space that has already been occupied (or) clicking invalid key to mark a space (or) wrong inputs to user prompts given before start of the level => Clear instruction is conveyed to the user to understand what they might have done wrong. Please see these screenshots.
   - Whenever a player wins, the line which caused the win is toggled till user interrupts.
   - In AI mode, using `Sleep()` to give user a feel that he is actually playing with another human player even when he/she is playing with AI.
 
