@@ -22,6 +22,6 @@ The game is built without use of any open-source graphic libraries or game engin
 ### Demo game play:
 https://user-images.githubusercontent.com/13928177/142049385-029661de-d1d3-427d-b8ee-980061491ed1.mp4
 
-### Handling invalid user inputs {#1}:
+### Handling invalid user inputs:
 https://user-images.githubusercontent.com/13928177/142056328-c830a23b-0bef-4ceb-8510-cf71ae3869e0.mp4
 
