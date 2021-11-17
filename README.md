@@ -11,8 +11,8 @@ The game is built without use of any open-source graphic libraries or game engin
 - **AI Algorithm:**
   - AI is built using Mini-Max Algorithm, which is combined with Alpha-Beta pruning to decrease the number of evaluated nodes, and thereby increasing efficiency.
 - **Navigation:**
-  - Clicking Escape returns player from any game (even when the game is on-going) back to Menu.
-  - To exit game: Select Exit option provided in Menu. Alternatively, can click Escape when in Menu.
+  - Clicking Escape returns the player from any non-Menu scene, back to the Menu.
+  - To exit game: Can select Exit option provided in the Menu. Alternatively, can also click Escape when in the Menu.
 - **User Experience:**
   - Colored content, instructions, and symbols to provide a optimal user experience for a game developed with no graphic support.
   - For invalid user inputs, clear instruction is conveyed to the user to understand what they might have done wrong. Please refer to "handling invalid user inputs" below for sample.
