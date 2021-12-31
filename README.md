@@ -17,7 +17,7 @@ The game is built without the use of any open-source graphic libraries or game e
   - Colored content, instructions, and symbols to provide an optimal user experience for a game developed with no graphic support.
   - For invalid user inputs, explicit instructions are conveyed to the user to understand what they might have done wrong. Please refer to "handling invalid user inputs" below for a sample.
   - Whenever a player wins, the line which caused the win is toggled till the user interrupts.
-  - In AI mode, using `Sleep()` to give the user a feel that he is actually playing with another human player even when he/she is playing with AI.
+  - In AI mode, using Sleep() to give the user the same feel that they get when playing with another human player.
 
 ### Demo game play:
 https://user-images.githubusercontent.com/13928177/142049385-029661de-d1d3-427d-b8ee-980061491ed1.mp4
